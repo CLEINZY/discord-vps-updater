@@ -1,0 +1,26 @@
+{
+  "name": "vps-monitor-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for real-time VPS monitoring using discord.js v14 and systeminformation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "vps",
+    "monitoring",
+    "systeminformation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.6.1",
+    "systeminformation": "^5.33.15"
+  }
+}
